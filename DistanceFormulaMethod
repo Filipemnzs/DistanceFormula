@@ -1,0 +1,11 @@
+//this method takes in 2 points (4 total values) type doubles and uses
+//the distance formula to calculate the distance between 2 points
+
+
+
+public static double distance (double x1, double y1, double x2, double y2){
+
+double distance = Math.sqrt(Math.pow((x1-x2),2) + Math.pow((y1-y2), 2));
+
+return distance;
+}
